@@ -1,0 +1,179 @@
+.main {
+    width: 100%;
+    min-height: 100vh;
+}
+.top {
+    width: 100%;
+    min-height: 60vh;
+    background-image: url("https://wallpapercave.com/wp/wp4854964.jpg");
+    background-size: cover;
+
+}
+.top .overlay {
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.368);
+
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    color: white;
+    padding:0 10vh;
+    bottom: 5%;
+    
+}
+.text .h1 {
+    font-size: 4vw;
+    font-weight: 600px;
+
+}
+.Image {
+    background-image: url("https://wallpapercave.com/uwp/uwp4288522.jpeg");
+    background-size: cover;
+    background-position:center;
+   height: 300px;
+   width: 250px; 
+}
+.rtext {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 25%;
+}
+.rtext .p {
+    font-size: 12px;
+
+}
+.icons {
+    font-size: 30px;
+}
+.bottom {
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1 {
+    width: 30%;
+    min-height: inherit;
+    background-image: url("https://wallpapercave.com/uwp/uwp4290793.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+}
+.b1 p{
+    padding: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: 900px;
+}
+.b2 {
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    
+}
+.b2 .up{
+    width: 100%;
+    height: 20vh;
+    background-image: url("https://wallpapercave.com/wp/wp5917992.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.up h1{
+    color:black;
+    font-weight: bolder;
+    text-align: center;
+}
+.up p {
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding: 15px;
+}
+.b2 .down {
+    background-image: url("https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.244);
+}
+.down h1 {
+    color: whitesmoke;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url("https://images.pexels.com/photos/11730763/pexels-photo-11730763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+}
+.b3 .overlay {
+    justify-content: right;
+    position: relative;
+    width: 100%;
+    height: 200%;
+    padding: 4vh 3vh;  
+    text-align:center;
+}
+.b3 .overlay p {
+    padding: 1.2vh;
+    color: black;
+    font-weight: bold;
+}
+
+@media(max-width:700px) {
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .text .Image {
+        height: 180px;
+        width: 200px;
+        margin: 8px;
+    }
+    .text .rtext {
+        flex-direction: column;
+        align-items: flex-start;   
+        
+    }
+    .bottom { 
+        flex-direction: column;
+        align-items: start;
+    }
+    .b1 {
+        width: 100%;
+    }
+    .b2 {
+        width: 100%;
+        
+    }
+    .b2 .up {
+        height: 40vh;
+    }
+    .b2 .down {
+        height: 30vh;
+    }
+    .b3 {
+        width: 100%
+    }
+}
+
+
