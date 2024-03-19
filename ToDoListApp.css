@@ -1,0 +1,52 @@
+.app {
+    height: 100vh;
+    background-image: linear-gradient(#ffd55c 50%,#5a95ff 50%);
+}
+.todo-container {
+    padding-top: 50px;
+}
+.container {
+    background-color: white;
+    padding: 25px;
+    text-align:center;
+    border-radius: 10px;
+}
+.Userinput {
+    width: 420px;
+    height: 38px;
+    margin: 15px;
+}
+.button-prop {
+
+    width: 85px;
+    
+}
+.task-container {
+    background-color: rgba(213, 234, 241, 0.858);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.checkboxProp {
+    height: 20px;
+    width: 20px;
+    margin: 20px;
+
+}
+.Label-text {
+    margin: 0px;
+    font-size: 25px;
+    
+}
+.icons {
+    font-size: 25px;
+    margin: 10px;
+}
+.checkbox-container {
+    padding: 0px;
+    margin: 0px;
+}
+.checker {
+    text-decoration: line-through;
+}
+
